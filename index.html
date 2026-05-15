@@ -398,11 +398,20 @@
   }
 
   .team-name {
+    display: inline-block;
     font-family: 'Playfair Display', serif;
     font-size: 1rem; font-weight: 700;
     color: var(--maroon-dark);
     margin-bottom: 0.3rem;
     line-height: 1.3;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  a.team-name:hover {
+    color: var(--maroon);
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 
   .team-role {
@@ -743,33 +752,28 @@
     <div class="team-grid">
       <div class="team-card">
         <div class="team-avatar"><img src="images/bennett.png" alt="Bennett Hylen"></div>
-        <div class="team-name">Bennett Hylen</div>
+        <a class="team-name" href="https://www.linkedin.com/in/bennett-hylen/" target="_blank" rel="noopener">Bennett Hylen</a>
         <div class="team-role">Co-Founder &amp; Editor-in-Chief</div>
-        <a class="team-linkedin" href="https://www.linkedin.com/in/bennett-hylen/" target="_blank" rel="noopener" aria-label="Bennett Hylen on LinkedIn">in</a>
       </div>
       <div class="team-card">
         <div class="team-avatar"><img src="images/brooke.png" alt="Brooke Duncan"></div>
-        <div class="team-name">Brooke Duncan</div>
+        <a class="team-name" href="https://www.linkedin.com/in/brooke-duncan-756bab277/" target="_blank" rel="noopener">Brooke Duncan</a>
         <div class="team-role">Co-Founder &amp; Editor-in-Chief</div>
-        <a class="team-linkedin" href="https://www.linkedin.com/in/brooke-duncan-756bab277/" target="_blank" rel="noopener" aria-label="Brooke Duncan on LinkedIn">in</a>
       </div>
       <div class="team-card">
         <div class="team-avatar"><img src="images/marium.png" alt="Marium Ihsan"></div>
-        <div class="team-name">Marium Ihsan</div>
+        <a class="team-name" href="https://www.linkedin.com/in/mariumihsan/" target="_blank" rel="noopener">Marium Ihsan</a>
         <div class="team-role">Managing Editor</div>
-        <a class="team-linkedin" href="https://www.linkedin.com/in/mariumihsan/" target="_blank" rel="noopener" aria-label="Marium Ihsan on LinkedIn">in</a>
       </div>
       <div class="team-card">
         <div class="team-avatar"><img src="images/kate.png" alt="Kate Heslan"></div>
-        <div class="team-name">Kate Heslan</div>
+        <a class="team-name" href="https://www.linkedin.com/in/kate-heslin-b61ab3328/" target="_blank" rel="noopener">Kate Heslan</a>
         <div class="team-role">Director of Publication</div>
-        <a class="team-linkedin" href="https://www.linkedin.com/in/kate-heslin-b61ab3328/" target="_blank" rel="noopener" aria-label="Kate Heslan on LinkedIn">in</a>
       </div>
       <div class="team-card">
         <div class="team-avatar"><img src="images/chandler.png" alt="Chandler Paulk"></div>
-        <div class="team-name">Chandler Paulk</div>
+        <a class="team-name" href="https://www.linkedin.com/in/chandler-paulk-598287346/" target="_blank" rel="noopener">Chandler Paulk</a>
         <div class="team-role">Director of Development</div>
-        <a class="team-linkedin" href="https://www.linkedin.com/in/chandler-paulk-598287346/" target="_blank" rel="noopener" aria-label="Chandler Paulk on LinkedIn">in</a>
       </div>
     </div>
   </div>
