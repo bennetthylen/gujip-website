@@ -361,9 +361,14 @@
   }
 
   .team-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem 2rem;
+  }
+
+  .team-card {
+    flex: 0 0 200px;
   }
 
   .team-card {
@@ -371,7 +376,7 @@
   }
 
   .team-avatar {
-    width: 150px; height: 150px;
+    width: 200px; height: 200px;
     border-radius: 50%;
     background: var(--warm-gray);
     border: 2px solid var(--border);
